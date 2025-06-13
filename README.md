@@ -74,6 +74,7 @@ git clone https://github.com/ifatinha/web-dev-projects
 cd web-dev-projects/contador-de-cliques
 
 # Abra o arquivo index.html no navegador
+```
 
 ## 👩‍💻 Autora
 
