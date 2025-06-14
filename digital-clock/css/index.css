@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+}
+
+body {
+    margin         : 0;
+    height         : 100vh;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    background     : #0f3854;
+    background     : radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
+    background-size: 100%;
+    color          : #00ffcc;
+    font-family    : 'Courier New', Courier, monospace;
+    width          : 100%;
+}
+
+.clock-container {
+    text-align: center;
+    padding   : 1% 2%;
+}
+
+.clock-container h1 {
+    font-size     : 5rem;
+    letter-spacing: 3px;
+}
+
+.clock-container #date {
+    font-size    : 1.2rem;
+    margin-bottom: 10px;
+    color        : #ccc;
+}
+
+@media screen and (max-width: 760px) {
+    .clock-container h1 {
+        font-size     : 3rem;
+    }
+}
