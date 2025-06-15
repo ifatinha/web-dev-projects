@@ -43,10 +43,12 @@ Este projeto é um formulário simples de cadastro com validações feitas em Ja
 
 ## 📂 Estrutura de arquivos
 
+```
 formulario-validacao/
 ├── index.html
 ├── style.css
 └── script.js
+```
 
 ## 🧩 Possíveis melhorias
 
