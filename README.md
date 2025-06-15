@@ -31,6 +31,7 @@ Cada projeto está em sua própria pasta contendo:
 | 🕒 Relógio Digital         | Mostra o horário em tempo real                          |
 | ✅ Lista de Tarefas        | Adiciona, risca e remove tarefas com armazenamento local|
 | 📝 Formulário com Validação| Validação de campos como e-mail e senha                 |
+| 🔏 Gerador de Senhas       | Gerar senhas com letras, números e símbolos             |
 
 ---
 
