@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+}
+
+body {
+    font-family     : Arial, sans-serif;
+    background-color: #f4f4f4;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    height          : 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding         : 30px;
+    border-radius   : 10px;
+    box-shadow      : 0 0 10px rgba(0, 0, 0, 0.1);
+    width           : 100%;
+    max-width       : 400px;
+}
+
+h1 {
+    font-size    : 1.6rem;
+    text-align   : center;
+    margin-bottom: 20px;
+}
+
+form .form-control {
+    margin-bottom: 15px;
+}
+
+form .form-control label {
+    display      : block;
+    margin-bottom: 5px;
+    font-weight  : bold;
+}
+
+form .form-control input {
+    width        : 100%;
+    padding      : 10px;
+    border       : 2px solid #ccc;
+    border-radius: 5px;
+    font-size    : 16px;
+}
+
+form .form-control input:focus {
+    border-color: #007bff;
+    outline     : none;
+}
+
+form .form-control.error input {
+    border-color: #e74c3c;
+}
+
+form .form-control.success input {
+    border-color: #2ecc71;
+}
+
+form .form-control small {
+    color     : #e74c3c;
+    visibility: hidden;
+}
+
+form .form-control.error small {
+    visibility: visible;
+}
+
+button {
+    width           : 100%;
+    padding         : 12px;
+    background-color: #007bff;
+    color           : white;
+    border          : none;
+    border-radius   : 5px;
+    font-size       : 16px;
+    cursor          : pointer;
+    margin-top      : 10px;
+    transition      : background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
