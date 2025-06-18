@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Password Generator</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🔐 Gerador de Senhas</h1>
+
+        <div class="password-display">
+            <input type="text" id="password" readonly>
+            <button id="copy">📋 Copiar</button>
+        </div>
+
+        <form id="settings">
+            <div class="form-group">
+                <label for="length">Tamanho da senha:</label>
+                <input type="range" id="length" min="6" max="32" value="10">
+                <span id="lengthValue">12</span>
+            </div>
+
+            <div class="form-group">
+                <label><input type="checkbox" id="uppercase" checked> Letras maiúsculas</label>
+            </div>
+
+            <div class="form-group">
+                <label><input type="checkbox" id="lowercase" checked> Letras minúsculas</label>
+            </div>
+
+            <div class="form-group">
+                <label><input type="checkbox" id="numbers" checked> Números</label>
+            </div>
+
+            <div class="form-group">
+                <label><input type="checkbox" id="symbols"> Símbolos</label>
+            </div>
+
+            <button type="button" id="generate">Gerar Senha</button>
+        </form>
+    </div>
+    <script src="js/index.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding   : 0;
+    margin    : 0;
+}
+
+body {
+    font-family    : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background     : #f0f4f8;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    min-height     : 100vh;
+    padding        : 2%;
+}
+
+.container {
+    background   : #ffffff;
+    padding      : 30px;
+    border-radius: 12px;
+    box-shadow   : 0 5px 20px rgba(0, 0, 0, 0.1);
+    width        : 100%;
+    max-width    : 480px;
+    width        : 100%;
+}
+
+h1 {
+    text-align   : center;
+    margin-bottom: 25px;
+    color        : #333;
+}
+
+.password-display {
+    display      : flex;
+    gap          : 10px;
+    margin-bottom: 20px;
+    flex-wrap    : wrap;
+}
+
+.password-display input {
+    flex            : 1;
+    padding         : 10px;
+    font-size       : 16px;
+    border          : 2px solid #ccc;
+    border-radius   : 6px;
+    background-color: #f9f9f9;
+}
+
+.password-display button {
+    padding         : 10px 14px;
+    border          : none;
+    background-color: #007bff;
+    color           : #fff;
+    font-size       : 16px;
+    border-radius   : 6px;
+    cursor          : pointer;
+    transition      : background-color 0.3s;
+}
+
+.password-display button:hover {
+    background-color: #0056b3;
+}
+
+.form-group {
+    margin-bottom  : 15px;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.form-group label {
+    font-size: 15px;
+    color    : #444;
+}
+
+#length-value {
+    font-weight: bold;
+    margin-left: 10px;
+    color      : #007bff;
+}
+
+button#generate {
+    width           : 100%;
+    padding         : 12px;
+    font-size       : 16px;
+    background-color: #28a745;
+    color           : white;
+    border          : none;
+    border-radius   : 6px;
+    cursor          : pointer;
+    transition      : background-color 0.3s;
+}
+
+button#generate:hover {
+    background-color: #218838;
+}
