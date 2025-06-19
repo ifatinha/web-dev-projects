@@ -25,24 +25,31 @@ Cada projeto está em sua própria pasta contendo:
 
 ## 🔰 Nível Iniciante
 
-| Projeto                    | Descrição                                                |
-|---------------------------|----------------------------------------------------------|
-| 📌 Contador de Cliques     | Incrementa e decrementa valores com botões              |
-| 🕒 Relógio Digital         | Mostra o horário em tempo real                          |
-| ✅ Lista de Tarefas        | Adiciona, risca e remove tarefas com armazenamento local|
-| 📝 Formulário com Validação| Validação de campos como e-mail e senha                 |
-| 🔏 Gerador de Senhas       | Gerar senhas com letras, números e símbolos             |
+| Nº | Projeto                    | Descrição                                                | Status |
+|----|---------------------------|----------------------------------------------------------|--------|
+| 1  | 📌 Contador de Cliques     | Incrementa e decrementa valores com botões              | ✅     |
+| 2  | 🕒 Relógio Digital         | Mostra o horário em tempo real                          | ✅     |
+| 3  | ✅ Lista de Tarefas        | Adiciona, risca e remove tarefas com armazenamento local| ✅     |
+| 4  | 📝 Formulário com Validação| Validação de campos como e-mail e senha                 | ✅     |
+| 5  | 🔏 Gerador de Senhas       | Gerar senhas com letras, números e símbolos             | ✅     |
 
 ---
 
 ## 🚀 Nível Intermediário
 
-| Projeto                     | Descrição                                               |
-|----------------------------|----------------------------------------------------------|
-| ➗ Calculadora              | Operações básicas (soma, subtração, etc.)                |
-| 🌗 Modo Claro/Escuro       | Alternância de temas com salvamento no localStorage      |
-| 🔄 Conversor               | Temperatura ou moeda com entrada do usuário              |
-| ❌ Jogo da Velha           | Jogo com detecção de vitória ou empate                   |
+| Nº | Projeto                          | Habilidades Trabalhadas                                                  | Status |
+|----|----------------------------------|---------------------------------------------------------------------------|--------|
+| 1  | Modo Claro / Escuro              | Toggle de temas, `localStorage`, manipulação de classes                  | ⬜      |
+| 2  | Calculadora Simples              | Operações matemáticas, eventos de botão, controle de input               | ⬜      |
+| 3  | Tabs (Abas interativas)          | Manipulação de DOM, classes ativas, navegação de seções                  | ⬜      |
+| 4  | Lista de Compras com LocalStorage| CRUD no DOM, armazenamento local, marcação de itens concluídos           | ⬜      |
+| 5  | Cronômetro / Timer com Alarme    | setInterval, lógica de tempo, controle de botão, áudio/alerta            | ⬜      |
+| 6  | Conversor de Moedas com API      | Fetch API, tratamento de JSON, DOM dinâmico, valores monetários          | ⬜      |
+| 7  | App de Clima com API             | API externa, manipulação de dados complexos, ícones dinâmicos            | ⬜      |
+| 8  | Galeria de Imagens com Modal     | Modais, navegação com teclado, organização visual responsiva             | ⬜      |
+| 9  | Quiz Interativo                  | Estrutura lógica, feedback ao usuário, pontuação                         | ⬜      |
+| 10 | Jogo da Velha (Tic-Tac-Toe)      | Lógica de jogo, arrays, condições de vitória, reinício de partida        | ⬜      |
+
 
 ---
 
