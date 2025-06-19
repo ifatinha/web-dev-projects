@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" class="display" id="display" disabled />
+
+        <!-- Botão para copiar o resultado -->
+        <button id="copy-result" class="btn copy">📋 Copiar Resultado</button>
+
+        <div class="buttons">
+            <button class="btn clear" id="clear">C</button>
+            <button class="btn delete" id="delete">⌫</button>
+            <button class="btn operator" id="sqrt" data-operator="^">X²</button>
+            <button class="btn operator" data-operator="/">÷</button>
+
+            <button class="btn number" data-number="7">7</button>
+            <button class="btn number" data-number="8">8</button>
+            <button class="btn number" data-number="9">9</button>
+            <button class="btn operator" data-operator="*">×</button>
+
+            <button class="btn number" data-number="4">4</button>
+            <button class="btn number" data-number="5">5</button>
+            <button class="btn number" data-number="6">6</button>
+            <button class="btn operator" data-operator="-">−</button>
+
+            <button class="btn number" data-number="1">1</button>
+            <button class="btn number" data-number="2">2</button>
+            <button class="btn number" data-number="3">3</button>
+            <button class="btn operator" data-operator="+">+</button>
+
+            <button class="btn number zero" data-number="0">0</button>
+            <button class="btn number" data-number=".">.</button>
+            <button class="btn equals" id="equals">=</button>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
