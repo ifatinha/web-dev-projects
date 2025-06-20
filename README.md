@@ -41,7 +41,7 @@ Cada projeto está em sua própria pasta contendo:
 |----|----------------------------------|---------------------------------------------------------------------------|--------|
 | 1  | Modo Claro / Escuro              | Toggle de temas, `localStorage`, manipulação de classes                  | ✅      |
 | 2  | Calculadora Simples              | Operações matemáticas, eventos de botão, controle de input               | ✅      |
-| 3  | Tabs (Abas interativas)          | Manipulação de DOM, classes ativas, navegação de seções                  | ⬜      |
+| 3  | Tabs (Abas interativas)          | Manipulação de DOM, classes ativas, navegação de seções                  | ✅      |
 | 4  | Lista de Compras com LocalStorage| CRUD no DOM, armazenamento local, marcação de itens concluídos           | ⬜      |
 | 5  | Cronômetro / Timer com Alarme    | setInterval, lógica de tempo, controle de botão, áudio/alerta            | ⬜      |
 | 6  | Conversor de Moedas com API      | Fetch API, tratamento de JSON, DOM dinâmico, valores monetários          | ⬜      |

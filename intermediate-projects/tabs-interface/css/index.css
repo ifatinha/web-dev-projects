@@ -1,0 +1,76 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+}
+
+body {
+    font-family     : Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding         : 3rem 1rem;
+    display         : flex;
+    justify-content : center;
+}
+
+/* Container principal das abas */
+.tabs-container {
+    background   : #fff;
+    border-radius: 8px;
+    box-shadow   : 0 0 10px rgba(0, 0, 0, 0.1);
+    width        : 100%;
+    max-width    : 600px;
+}
+
+.tabs {
+    display      : flex;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Botões de aba */
+.tab {
+    flex            : 1;
+    padding         : 12px 20px;
+    cursor          : pointer;
+    background-color: #f1f1f1;
+    border          : none;
+    border-right    : 1px solid #ddd;
+    font-weight     : bold;
+    transition      : background 0.3s;
+}
+
+.tab:last-child {
+    border-right: none;
+}
+
+/* Aba ativa */
+.tab.active {
+    background-color: #fff;
+    border-bottom   : 2px solid #3498db;
+    color           : #3498db;
+}
+
+/* Área de conteúdo das abas */
+.tab-content {
+    padding: 20px;
+}
+
+.content {
+    display  : none;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Mostra o conteúdo ativo */
+.content.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
