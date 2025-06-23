@@ -1,0 +1,98 @@
+/* Reset e estilos base */
+* {
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+}
+
+body {
+    font-family     : "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color           : #333;
+    height          : 100vh;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    padding         : 12px 24px;
+    font-size       : 1rem;
+    border          : none;
+    border-radius   : 8px;
+    background-color: #4f46e5;
+    color           : white;
+    cursor          : pointer;
+    transition      : background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #4338ca;
+}
+
+/* Modal overlay */
+.modal-overlay {
+    position        : fixed;
+    top             : 0;
+    left            : 0;
+    width           : 100%;
+    height          : 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    opacity         : 0;
+    pointer-events  : none;
+    transition      : opacity 0.3s ease;
+}
+
+
+/* Modal caixa */
+.modal {
+    background-color: #ffffff;
+    padding         : 2rem;
+    border-radius   : 12px;
+    width           : 90%;
+    max-width       : 400px;
+    position        : relative;
+    transform       : translateY(-30px);
+    transition      : opacity 0.3s ease, transform 0.3s ease;
+    box-shadow      : 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align      : center;
+}
+
+/* Botão de fechar */
+.close-btn {
+    position  : absolute;
+    top       : 10px;
+    right     : 14px;
+    font-size : 1.5rem;
+    background: transparent;
+    border    : none;
+    cursor    : pointer;
+    color     : #888;
+    transition: color 0.2s;
+}
+
+.close-btn:hover {
+    color: #333;
+}
+
+/* Quando modal está visível */
+.modal-overlay.active {
+    opacity       : 1;
+    pointer-events: auto;
+}
+
+.modal-overlay.active .modal {
+    opacity  : 1;
+    transform: translateY(0);
+}
