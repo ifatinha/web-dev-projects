@@ -61,6 +61,19 @@ h1 {
     color           : #fff;
 }
 
+/* Para navegadores Chrome, Safari, Edge */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin            : 0;
+}
+
+/* Para Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance     : textfield;
+}
+
 .time-inputs span {
     font-size: 1.5rem;
     margin   : 0 0.5rem;
