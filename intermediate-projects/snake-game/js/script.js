@@ -1,6 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
   /** Etapa 1: Variáveis e configurações iniciais */
 
+  // Seleciona o elemento da tela inicial do jogo
+  const startScreen = document.getElementById("startScreen");
+
   // Seleciona o elemento <canvas> do HTML onde o jogo será desenhado
   const gameCanvas = document.querySelector("#gameCanvas");
 
@@ -172,6 +175,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.addEventListener("keydown", function (event) {
     if (event.key === "Enter" && !gameStarted) {
+      startScreen.classList.add("hide"); // Esconde a tela inicial
       startGame(); // Inicia o jogo ao pressionar Enter
     }
   });
