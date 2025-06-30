@@ -1,0 +1,57 @@
+/* Reset básico */
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f0f0f;
+    color           : #00ff6a;
+    font-family     : 'Courier New', Courier, monospace;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    height          : 100vh;
+    text-align      : center;
+}
+
+.container {
+    background-color: #1a1a1a;
+    padding         : 2rem;
+    border-radius   : 12px;
+    box-shadow      : 0 0 25px rgba(0, 255, 100, 0.4);
+    max-width       : 500px;
+    width           : 90%;
+}
+
+h1 {
+    font-size    : 2rem;
+    margin-bottom: 1rem;
+    color        : #00ff6a;
+}
+
+p {
+    font-size: 1.1rem;
+    margin   : 0.5rem 0;
+}
+
+#score {
+    font-weight: bold;
+    font-size  : 1.5rem;
+    color      : #39ff14;
+}
+
+canvas {
+    background-color: #000;
+    display         : block;
+    margin          : 1rem auto;
+    border          : 3px solid #00ff6a;
+    border-radius   : 8px;
+}
+
+.instrucoes {
+    font-size : 0.9rem;
+    color     : #ccc;
+    margin-top: 1rem;
+}
