@@ -49,6 +49,7 @@ Cada projeto está em sua própria pasta contendo:
 | 8   | Galeria de Imagens com Modal      | Modais, navegação com teclado, organização visual responsiva      | ✅     |
 | 9   | Quiz Interativo                   | Estrutura lógica, feedback ao usuário, pontuação                  | ⬜     |
 | 10  | Jogo da Velha (Tic-Tac-Toe)       | Lógica de jogo, arrays, condições de vitória, reinício de partida | ✅     |
+| 11  | Snake Game                        | Lógica de jogo, manipulação do canvas e controle de teclado.      | ⬜ |
 
 ---
 
