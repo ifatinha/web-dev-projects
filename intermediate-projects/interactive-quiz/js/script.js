@@ -6,4 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const scoreBox = document.querySelector("#score-box");
   const scoreEl = document.querySelector("#score");
   const restartButton = document.querySelector("#restart-btn");
+
+  let currentQuestionIndex = 0;
+  let score = 0;
 });
