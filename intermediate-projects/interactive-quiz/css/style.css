@@ -1,0 +1,124 @@
+/* Reset básico */
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family    : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background     : #f0f2f5;
+    display        : flex;
+    justify-content: center;
+    align-items    : flex-start;
+    min-height     : 100vh;
+    padding        : 2rem;
+}
+
+.quiz-container {
+    background   : #fff;
+    padding      : 2rem;
+    border-radius: 10px;
+    box-shadow   : 0 6px 18px rgba(0, 0, 0, 0.1);
+    width        : 100%;
+    max-width    : 500px;
+}
+
+h1 {
+    text-align   : center;
+    margin-bottom: 1.5rem;
+    color        : #333;
+}
+
+#question {
+    font-size    : 1.2rem;
+    margin-bottom: 1.5rem;
+    color        : #444;
+}
+
+/* Botões de resposta */
+.btn-grid {
+    display       : flex;
+    flex-direction: column;
+    gap           : 0.75rem;
+}
+
+.btn-grid button {
+    padding         : 0.75rem;
+    border          : 2px solid #ccc;
+    border-radius   : 8px;
+    background-color: #f9f9f9;
+    font-size       : 1rem;
+    cursor          : pointer;
+    transition      : all 0.2s ease;
+}
+
+.btn-grid button:hover {
+    background-color: #e6f7ff;
+    border-color    : #00bcd4;
+}
+
+.btn-grid button.correct {
+    background-color: #c8e6c9;
+    border-color    : #4caf50;
+    color           : #2e7d32;
+}
+
+.btn-grid button.wrong {
+    background-color: #ffcdd2;
+    border-color    : #f44336;
+    color           : #b71c1c;
+}
+
+.next-btn {
+    margin-top      : 1.5rem;
+    width           : 100%;
+    padding         : 0.8rem;
+    font-size       : 1rem;
+    background-color: #00bcd4;
+    color           : #fff;
+    border          : none;
+    border-radius   : 8px;
+    cursor          : pointer;
+    display         : none;
+    transition      : background-color 0.3s ease;
+}
+
+.next-btn:hover {
+    background-color: #0097a7;
+}
+
+/* Resultado final */
+#score-box {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#score-box h2 {
+    margin-bottom: 1rem;
+    color        : #333;
+}
+
+#score-box p {
+    font-size    : 1.3rem;
+    margin-bottom: 1rem;
+}
+
+#restart-btn {
+    padding         : 0.6rem 1.5rem;
+    font-size       : 1rem;
+    border          : none;
+    border-radius   : 8px;
+    background-color: #4caf50;
+    color           : white;
+    cursor          : pointer;
+    transition      : background-color 0.3s ease;
+}
+
+#restart-btn:hover {
+    background-color: #388e3c;
+}
+
+.hidden {
+    display: none;
+}
