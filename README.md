@@ -54,18 +54,18 @@ Cada projeto está em sua própria pasta contendo:
 
 ## 🌐 Nível Avançado
 
-| Nº  | Projeto                                           | Habilidades Trabalhadas                                                                   | Status |
-| --- | ------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------ |
-| 1   | Gerenciador de Tarefas com Filtros e LocalStorage | To-do app com categorias, filtros por status (pendente/concluído), persistência e edição. | ⬜     |
-| 2   | Modo Claro / Escuro                               | Toggle de temas, `localStorage`, manipulação de classes                                   | ⬜     |
-| 3   | Modo Claro / Escuro                               | Toggle de temas, `localStorage`, manipulação de classes                                   | ⬜     |
-| 4   | Modo Claro / Escuro                               | Toggle de temas, `localStorage`, manipulação de classes                                   | ⬜     |
-| 5   | Modo Claro / Escuro                               | Toggle de temas, `localStorage`, manipulação de classes                                   | ⬜     |
-| 6   | Modo Claro / Escuro                               | Toggle de temas, `localStorage`, manipulação de classes                                   | ⬜     |
-| 7   | Modo Claro / Escuro                               | Toggle de temas, `localStorage`, manipulação de classes                                   | ⬜     |
-| 8   | Modo Claro / Escuro                               | Toggle de temas, `localStorage`, manipulação de classes                                   | ⬜     |
-| 9   | Modo Claro / Escuro                               | Toggle de temas, `localStorage`, manipulação de classes                                   | ⬜     |
-| 10  | Modo Claro / Escuro                               | Toggle de temas, `localStorage`, manipulação de classes                                   | ⬜     |
+| Nº  | Projeto                                           | Habilidades Trabalhadas                                                                                                    | Status |
+| --- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 1   | Gerenciador de Tarefas com Filtros e LocalStorage | To-do app com categorias, filtros por status (pendente/concluído), persistência e edição.                                  | ⬜     |
+| 2   | App de Notas (tipo Google Keep)                   | Criação de notas coloridas com título, conteúdo, edição e exclusão.                                                        | ⬜     |
+| 3   | App de Receitas com Busca por Ingredientes (API)  | Consome a API TheMealDB para buscar e exibir receitas com detalhes.                                                        | ⬜     |
+| 4   | Dashboard de Criptomoedas em Tempo Real (API)     | Consome uma API de cripto (como CoinGecko) e exibe valores, variação e gráficos.                                           | ⬜     |
+| 5   | App de Notícias com Filtro por Categoria (API)    | Usa a NewsAPI ou GNews para mostrar notícias atualizadas por tema e país.                                                  | ⬜     |
+| 6   | Quiz com Ranking e LocalStorage                   | Jogo de perguntas e respostas com pontuação, ranking local e perguntas embaralhadas.                                       | ⬜     |
+| 7   | Mini E-commerce com Carrinho de Compras           | Catálogo de produtos, carrinho funcional, soma total, filtro por categoria e integração com API falsa (como FakeStoreAPI). | ⬜     |
+| 8   | App de Filmes com Favoritos e Busca (API TMDb)    | Projeto pessoal com modo claro/escuro, animações de scroll, filtro de projetos, temas salvos no localStorage.              | ⬜     |
+| 9   | Portfólio Interativo com Temas e Animações        | Toggle de temas, `localStorage`, manipulação de classes                                                                    | ⬜     |
+| 10  | SPA com Roteamento Simples (sem frameworks)       | Criação de uma SPA com JavaScript puro, manipulando rotas (hashchange ou History API) para navegação dinâmica.             | ⬜     |
 
 ---
 
