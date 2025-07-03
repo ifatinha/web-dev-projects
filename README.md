@@ -44,12 +44,11 @@ Cada projeto está em sua própria pasta contendo:
 | 3   | Tabs (Abas interativas)           | Manipulação de DOM, classes ativas, navegação de seções           | ✅     |
 | 4   | Lista de Compras com LocalStorage | CRUD no DOM, armazenamento local, marcação de itens concluídos    | ✅     |
 | 5   | Cronômetro / Timer com Alarme     | setInterval, lógica de tempo, controle de botão, áudio/alerta     | ✅     |
-| 6   | Conversor de Moedas com API       | Fetch API, tratamento de JSON, DOM dinâmico, valores monetários   | ⬜     |
-| 7   | App de Clima com API              | API externa, manipulação de dados complexos, ícones dinâmicos     | ✅     |
-| 8   | Galeria de Imagens com Modal      | Modais, navegação com teclado, organização visual responsiva      | ✅     |
-| 9   | Quiz Interativo                   | Estrutura lógica, feedback ao usuário, pontuação                  | ✅     |
-| 10  | Jogo da Velha (Tic-Tac-Toe)       | Lógica de jogo, arrays, condições de vitória, reinício de partida | ✅     |
-| 11  | Snake Game                        | Lógica de jogo, manipulação do canvas e controle de teclado.      | ✅     |
+| 6   | App de Clima com API              | API externa, manipulação de dados complexos, ícones dinâmicos     | ✅     |
+| 7   | Galeria de Imagens com Modal      | Modais, navegação com teclado, organização visual responsiva      | ✅     |
+| 8   | Quiz Interativo                   | Estrutura lógica, feedback ao usuário, pontuação                  | ✅     |
+| 9   | Jogo da Velha (Tic-Tac-Toe)       | Lógica de jogo, arrays, condições de vitória, reinício de partida | ✅     |
+| 10  | Snake Game                        | Lógica de jogo, manipulação do canvas e controle de teclado.      | ✅     |
 
 ---
 
