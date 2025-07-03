@@ -45,7 +45,7 @@ Cada projeto está em sua própria pasta contendo:
 | 4   | Lista de Compras com LocalStorage | CRUD no DOM, armazenamento local, marcação de itens concluídos    | ✅     |
 | 5   | Cronômetro / Timer com Alarme     | setInterval, lógica de tempo, controle de botão, áudio/alerta     | ✅     |
 | 6   | Conversor de Moedas com API       | Fetch API, tratamento de JSON, DOM dinâmico, valores monetários   | ⬜     |
-| 7   | App de Clima com API              | API externa, manipulação de dados complexos, ícones dinâmicos     | ⬜     |
+| 7   | App de Clima com API              | API externa, manipulação de dados complexos, ícones dinâmicos     | ✅     |
 | 8   | Galeria de Imagens com Modal      | Modais, navegação com teclado, organização visual responsiva      | ✅     |
 | 9   | Quiz Interativo                   | Estrutura lógica, feedback ao usuário, pontuação                  | ✅     |
 | 10  | Jogo da Velha (Tic-Tac-Toe)       | Lógica de jogo, arrays, condições de vitória, reinício de partida | ✅     |
