@@ -54,12 +54,18 @@ Cada projeto está em sua própria pasta contendo:
 
 ## 🌐 Nível Avançado
 
-| Projeto               | Descrição                                           |
-| --------------------- | --------------------------------------------------- |
-| 🖼️ Galeria com Filtro | Filtro de imagens por categoria e exibição em modal |
-| 🕹️ Quiz               | Perguntas com pontuação e feedback                  |
-| 🛍️ Loja com Carrinho  | Adicionar/remover itens e totalizar                 |
-| ☁️ App de Clima       | Consome API para previsão do tempo                  |
+| Nº  | Projeto                                           | Habilidades Trabalhadas                                                                   | Status |
+| --- | ------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------ |
+| 1   | Gerenciador de Tarefas com Filtros e LocalStorage | To-do app com categorias, filtros por status (pendente/concluído), persistência e edição. | ⬜     |
+| 2   | Modo Claro / Escuro                               | Toggle de temas, `localStorage`, manipulação de classes                                   | ⬜     |
+| 3   | Modo Claro / Escuro                               | Toggle de temas, `localStorage`, manipulação de classes                                   | ⬜     |
+| 4   | Modo Claro / Escuro                               | Toggle de temas, `localStorage`, manipulação de classes                                   | ⬜     |
+| 5   | Modo Claro / Escuro                               | Toggle de temas, `localStorage`, manipulação de classes                                   | ⬜     |
+| 6   | Modo Claro / Escuro                               | Toggle de temas, `localStorage`, manipulação de classes                                   | ⬜     |
+| 7   | Modo Claro / Escuro                               | Toggle de temas, `localStorage`, manipulação de classes                                   | ⬜     |
+| 8   | Modo Claro / Escuro                               | Toggle de temas, `localStorage`, manipulação de classes                                   | ⬜     |
+| 9   | Modo Claro / Escuro                               | Toggle de temas, `localStorage`, manipulação de classes                                   | ⬜     |
+| 10  | Modo Claro / Escuro                               | Toggle de temas, `localStorage`, manipulação de classes                                   | ⬜     |
 
 ---
 
