@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>📋 Gerenciador de Tarefas</h1>
+
+        <form id="task-form">
+            <input type="text" id="task-title" placeholder="Título da tarefa" required />
+            <input type="text" id="task-desc" placeholder="Descrição (opcional)" />
+            <select id="task-category">
+                <option value="">Categoria</option>
+                <option value="Trabalho">Trabalho</option>
+                <option value="Estudos">Estudos</option>
+                <option value="Casa">Casa</option>
+                <option value="Outros">Outros</option>
+            </select>
+            <button type="submit">Adicionar Tarefa</button>
+        </form>
+
+        <div class="filters">
+            <div class="filter-group">
+                <label for="status-filter">Status:</label>
+                <select id="status-filter">
+                    <option value="all">Todas</option>
+                    <option value="pending">Pendentes</option>
+                    <option value="completed">Concluídas</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="category-filter">Categoria:</label>
+                <select id="category-filter">
+                    <option value="all">Todas</option>
+                    <option value="Trabalho">Trabalho</option>
+                    <option value="Estudos">Estudos</option>
+                    <option value="Casa">Casa</option>
+                    <option value="Outros">Outros</option>
+                </select>
+            </div>
+        </div>
+
+        <ul id="task-list" class="task-list">
+            <!-- Tarefas serão inseridas aqui dinamicamente -->
+        </ul>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
