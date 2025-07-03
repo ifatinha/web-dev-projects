@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const cityName = document.querySelector("#city-name");
   const temperature = document.querySelector("#temperature");
   const description = document.querySelector("#description");
-  const icon = document.querySelector("#icon");
+  const icon = document.querySelector("#weather-icon");
   const weatherResult = document.querySelector("#weather-result");
   const errorMessage = document.querySelector("#error-message");
   const apiKey = "7d14f47485cc0e1d3c1db319d1263985";
@@ -18,13 +18,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
       const response = await fetch(url);
 
-      if (!response.ok) {
+      if (response.ok === false) {
         throw new Error("Cidade não encontrada");
       }
 
       const data = await response.json();
-
-      console.log(data);
 
       cityName.textContent = data.name;
       temperature.textContent = `${Math.round(data.main.temp)}°C`;
@@ -34,8 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
       weatherResult.classList.remove("hidden");
       errorMessage.classList.add("hidden");
     } catch (error) {
-      weatherResult.classList.add("hidden");
-      errorMessage.classList.remove("hidden");
+      weatherResult.classList.remove("hidden");
+      errorMessage.classList.add("hidden");
     }
   }
 
